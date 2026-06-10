@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#taskPicker_container {
+  color: aliceblue;
+  background-color: black;
+  width: 50%;
+  margin: 12px auto;
+  height: 500px;
+  padding: 10px 20px;
+  flex-direction: row;
+}
+
+/* tasks */
+#tasks {
+  display: flex;
+  gap: 10px;
+}
+.task {
+  color: black;
+  padding: 6px 11px;
+
+  border: 1px solid wheat;
+  flex: 1 1 0;
+  min-height: 0;
+
+  height: 33px;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}

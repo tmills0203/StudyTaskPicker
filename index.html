@@ -3,7 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Study Task Picker</title>
   </head>
-  <body></body>
+  <body>
+    <div id="taskPicker_container">
+      <h1>Pick your Tasks!</h1>
+      <button id="btn" onclick="taskBtn()">Generate</button>
+      <section id="tasks">
+        <div id="taskOne" class="task"></div>
+        <div id="taskTwo" class="task"></div>
+        <div id="taskThree" class="task"></div>
+        <div id="taskFour" class="task"></div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
